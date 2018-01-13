@@ -1,13 +1,60 @@
+/*General Layout*/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding-left: ;
-    padding-right: ;
-    border: 1px solid black;
+body {
+    font-family: 'Raleway', sans-serif;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+
+/*Site Header*/
+
+.site-header{
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.li a {
+    
+}
+
+
+.header-nav li {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
