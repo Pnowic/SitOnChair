@@ -14,6 +14,7 @@ body {
     float: left;
     text-align: center;
 }
+
 .right{
     float: right;
     text-align: center;
@@ -29,7 +30,6 @@ body {
     border: 1px solid red;
 }
 
-.section::after,
 .col-2-layout::after,
 .col-3-layout::after {
     content: "";
@@ -47,6 +47,7 @@ body {
 
 .brand-color {
     color: #29C5AD;
+    font-weight: 600;
 }
 
 /*Site Header*/
@@ -55,23 +56,55 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 14px;
-    font-weight: 600;
+    padding: 18px 0;
+
 }
 
-li a {
+.header-nav li a {
     text-decoration: none;
     color: white;
+    font-weight: 600;
+    margin: 0 30px;
 }
 
 .header-nav li {
     display: inline;
+
 }
 
 
 
 /*Main Section*/
 
+.main-section {
+
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(230,224,245,1) 76%, rgba(218,213,241,1) 84%, rgba(207,205,239,1) 92%, rgba(207,205,239,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(76%, rgba(230,224,245,1)), color-stop(84%, rgba(218,213,241,1)), color-stop(92%, rgba(207,205,239,1)), color-stop(100%, rgba(207,205,239,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(230,224,245,1) 76%, rgba(218,213,241,1) 84%, rgba(207,205,239,1) 92%, rgba(207,205,239,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(230,224,245,1) 76%, rgba(218,213,241,1) 84%, rgba(207,205,239,1) 92%, rgba(207,205,239,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(230,224,245,1) 76%, rgba(218,213,241,1) 84%, rgba(207,205,239,1) 92%, rgba(207,205,239,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(230,224,245,1) 76%, rgba(218,213,241,1) 84%, rgba(207,205,239,1) 92%, rgba(207,205,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcdef', GradientType=0 );
+
+}
+
+.nav-sign-left,
+.nav-sign-right {
+    position: absolute;
+    font-size: 80px;
+}
+
+.nav-sign-left a,
+.nav-sign-right a{
+    color: #27C7AB;
+    text-decoration: none;
+}
+
+
 /*Side Section*/
+
+/*Price Section*/
 
 
 
