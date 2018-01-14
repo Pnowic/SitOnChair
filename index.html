@@ -12,7 +12,7 @@
         <div class="container">
             <div class="col-2-layout">
                 <div class="column left">
-                    <p>SIT<span class="brand-color"> ON </span>CHAIR</p>
+                    <p class="header-logo">SIT<span class="brand-color"> ON </span>CHAIR</p>
                 </div>
                 <nav class="column right">
                     <ul class="header-nav">
@@ -33,7 +33,9 @@
                 </div>
                 <div class="column right">
                     <h1>SIT <span class="brand-color">ON</span> OUR <span class="brand-color">CHAIR</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias, amet consequatur enim explicabo facilis impedit minima modi molestias mollitia nemo nostrum quae quis quod recusandae repudiandae sint vel veniam.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias, amet consequatur enim explicabo facilis impedit minima modi molestias mollitia nemo nostrum quae quis quod recusandae repudiandae sint vel veniam.
+                    </p>
                     <button><a href="#">ZOBACZ WIĘCEJ</a></button>
                     <span class="nav-sign-right"><a href="#">&gt;</a></span>
                 </div>
@@ -44,13 +46,22 @@
         <div class="container">
             <div class="col-3-layout">
                 <div class="column left clair">
+                    <h3>Chair CLAIR</h3>
                     <img src="images/box1_img.jpg" alt="chair clair">
                 </div>
                 <div class="column middle margarita">
+                    <h3>Chair MARGARITA</h3>
                     <img src="images/box2_img.jpg" alt="chair margarita">
                 </div>
                 <div class="column right inputs">
-
+                    <h3>Finds all inputs</h3>
+                    <p>
+                        Finds all inputs that are not checked and highlight the next sibling span.Notice there is no change when clicking the checkboxes since no click have been linked.
+                    </p>
+                    <br>
+                    <p>
+                        Notice there is no changes when clicking the checkboxes since no click events have been
+                    </p>
                 </div>
             </div>
         </div>
@@ -61,17 +72,59 @@
                 <h2>CENNIK</h2>
                 <div class="column left">
                     <div class="plan basic">
-
+                        <h3>BASIC PLAN</h3>
+                        <div class="price-circle">
+                            <p>
+                                85<sup>99</sup>
+                            </p>
+                            <p>
+                                PLN/MSC
+                            </p>
+                        </div>
+                        <ul>
+                            <li>Zakup towaru + dowóz</li>
+                            <li>Serwis</li>
+                        </ul>
+                        <button><a href="#">DOŁĄCZ</a></button>
                     </div>
                 </div>
                 <div class="column middle">
                     <div class="plan standard">
-
+                        <h3>STANDARD PLAN</h3>
+                        <div class="price-circle">
+                            <p>
+                                95<sup>99</sup>
+                            </p>
+                            <p>
+                                PLN/MSC
+                            </p>
+                        </div>
+                        <ul>
+                            <li>Zakup towaru + dowóz</li>
+                            <li>Serwis</li>
+                            <li>Gwarancja 5 lat</li>
+                        </ul>
+                        <button><a href="#">DOŁĄCZ</a></button>
                     </div>
                 </div>
                 <div class="column right">
                     <div class="plan advance">
-
+                        <h3>ADVANCE PLAN</h3>
+                        <div class="price-circle">
+                            <p>
+                                211<sup>00</sup>
+                            </p>
+                            <p>
+                                PLN/MSC
+                            </p>
+                        </div>
+                        <ul>
+                            <li>Zakup towaru + dowóz</li>
+                            <li>Serwis</li>
+                            <li>Gwarancja 6 lat</li>
+                            <li>Porady projektanta</li>
+                        </ul>
+                        <button><a href="#">DOŁĄCZ</a></button>
                     </div>
                 </div>
             </div>
@@ -92,11 +145,12 @@
                     <img src="images/red_chair.png" alt="red chair">
                     <form>
                         <label>
-                            <input type="checkbox" name="orderproduct" checked>
+                            <input class =checkbox type="checkbox" name="orderproduct" checked>
                             Zgadzam się na przetwarzanie danych osobowych
+                            <br>
+                            <input class="send-form" type="submit" name="send" value="Wyślij">
                         </label>
                     </form>
-                    <button><a href="#">WYŚLIJ</a></button>
                 </div>
             </div>
         </div>
