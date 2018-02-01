@@ -1,7 +1,17 @@
 //General Layout
 
-*{
-  margin: 0;
-  padding: 0;
-}
+@import "layout/reset.scss";
+@import "layout/general.scss";
+
+//Sections styles
+@import "components/header.scss";
+@import "components/slider.scss";
+@import "components/gallery";
+@import "components/pricing.scss";
+@import "components/contact.scss";
+@import "components/footer.scss";
+
+
+
+
 

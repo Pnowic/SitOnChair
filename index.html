@@ -10,49 +10,63 @@
 <body>
     <header>
         <div class="container">
-            <div class="header-logo">
-                SIT <span class="middle-color">ON</span> CHAIR
+            <div class="header-wrapper">
+                <div class="header">
+                    SIT <span>ON</span> CHAIR
+                </div>
+                <nav>
+                    <ul class="header-menu">
+                        <li><a href="#">O FIRMIE</a></li>
+                        <li><a href="#">GALERIA</a></li>
+                        <li><a href="#">KONTAKT</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">O FIRMIE</a></li>
-                    <li><a href="#">GALERIA</a></li>
-                    <li><a href="#">KONTAKT</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
 
-    <section class="main-section">
+    <section class="slider-section">
         <div class="container">
-            <div>
-                <span class="nav-sign-left"><a href="#">&lt;</a></span>
-                <img src="images/black_chair.png" alt="black chair">
-            </div>
-            <div>
-                <h1>SIT <span class="brand-color">ON</span> OUR <span class="brand-color">CHAIR</span></h1>
-                <p>
+            <div class="slider">
+                <div class="nav-sign-left">
+                    <a href="#">&lt;</a>
+                </div>
+                <div class="black-chair">
+                    <img src="images/black_chair.png" alt="black chair">
+                </div>
+                <div class ="slider-text">
+                    <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
+                    <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias, amet consequatur enim explicabo facilis impedit minima modi molestias mollitia nemo nostrum quae quis quod recusandae repudiandae sint vel veniam.
-                </p>
-                <button><a href="#">ZOBACZ WIĘCEJ</a></button>
-                <span class="nav-sign-right"><a href="#">&gt;</a></span>
+                    </p>
+                    <button class="slider-btn"><a href="#">ZOBACZ WIĘCEJ</a></button>
+                </div>
+                <div class="nav-sign-right">
+                    <a href="#">&gt;</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="side-section">
+    <section class="gallery-section">
         <div class="container">
-            <div>
-                <h3>Chair CLAIR</h3>
-                <img src="images/box1_img.jpg" alt="chair clair">
+            <div class="clair">
+                <img src="images/box1_img.jpg">
+                <div class="opacity-box">
+                    <h3>Chair CLAIR</h3>
+                </div>
             </div>
 
-            <div>
-                <h3>Chair MARGARITA</h3>
-                <img src="images/box2_img.jpg" alt="chair margarita">
+            <div class="margarita">
+                <img src="images/box2_img.jpg">
+                <div class="opacity-box">
+            <h3>Chair MARGARITA</h3>
+                </div>
             </div>
-            <div>
+
+            <div class="inputs">
                 <h3>Finds all inputs</h3>
+                <br>
                 <p>
                     Finds all inputs that are not checked and highlight the next sibling span.Notice there is no change when clicking the checkboxes since no click have been linked.
                 </p>
@@ -64,63 +78,38 @@
         </div>
     </section>
 
-    <section class="price-section">
+    <section class="pricing-section">
         <div class="container">
             <h2>CENNIK</h2>
-            <div>
+            <div class="price-plans">
                 <div class="plan basic">
                     <h3>BASIC PLAN</h3>
                     <div class="price-circle">
-                        <p>
-                            85<sup>99</sup>
-                        </p>
-                        <p>
-                            PLN/MSC
-                        </p>
+                        85<sup>99</sup><br><span>PLN/MSC</span>
                     </div>
-                    <ul>
-                        <li>Zakup towaru + dowóz</li>
-                        <li>Serwis</li>
-                    </ul>
+                    <div>Zakup towaru + dowóz</div>
+                    <div>Serwis</div>
                     <button><a href="#">DOŁĄCZ</a></button>
                 </div>
-            </div>
-            <div>
                 <div class="plan standard">
                     <h3>STANDARD PLAN</h3>
                     <div class="price-circle">
-                        <p>
-                            95<sup>99</sup>
-                        </p>
-                        <p>
-                            PLN/MSC
-                        </p>
+                        95<sup>99</sup><br><span>PLN/MSC</span>
                     </div>
-                    <ul>
-                        <li>Zakup towaru + dowóz</li>
-                        <li>Serwis</li>
-                        <li>Gwarancja 5 lat</li>
-                    </ul>
+                    <div>Zakup towaru + dowóz</div>
+                    <div>Serwis</div>
+                    <div>Gwarancja 5 lat</div>
                     <button><a href="#">DOŁĄCZ</a></button>
                 </div>
-            </div>
-            <div>
                 <div class="plan advance">
                     <h3>ADVANCE PLAN</h3>
                     <div class="price-circle">
-                        <p>
-                            211<sup>00</sup>
-                        </p>
-                        <p>
-                            PLN/MSC
-                        </p>
+                        211<sup>00</sup><br><span>PLN/MSC</span>
                     </div>
-                    <ul>
-                        <li>Zakup towaru + dowóz</li>
-                        <li>Serwis</li>
-                        <li>Gwarancja 6 lat</li>
-                        <li>Porady projektanta</li>
-                    </ul>
+                    <div>Zakup towaru + dowóz</div>
+                    <div>Serwis</div>
+                    <div>Gwarancja 6 lat</div>
+                    <div>Porady projektanta</div>
                     <button><a href="#">DOŁĄCZ</a></button>
                 </div>
             </div>
@@ -130,7 +119,7 @@
     <section class="contact-section">
         <div class="container">
             <h2>KONTAKT</h2>
-            <div>
+            <div class="form-wrapper">
                 <form>
                     <input class="form-control" type="text" name="name" placeholder="Imię"><br>
                     <input class="form-control" type="email" name="email" placeholder="E-mail"><br>
@@ -153,15 +142,15 @@
 
     <footer>
         <div class="container">
-            <div class="column left">
+            <div>
                 <span class="copyright">Copyright 2014 | All rights reserved - Sit on chair</span>
             </div>
-            <div class="column right">
+            <div>
                 <img src="images/flickr.png">
                 <img src="images/vimeo.png">
                 <img src="images/pinterest.png">
                 <img src="images/twitter.png">
-                <span class="footer-logo">SIT <strong>ON</strong> CHAIR</span>
+                <span class="footer-logo">SIT ON CHAIR</span>
             </div>
         </div>
     </footer>
