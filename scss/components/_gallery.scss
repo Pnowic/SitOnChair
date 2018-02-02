@@ -1,0 +1,49 @@
+.gallery-section {
+  margin: 25px auto;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.clair,
+.margarita,
+.inputs {
+  width: 33.33%;
+  margin: 0 20px;
+}
+
+.opacity-box {
+  position: relative;
+  bottom: 90px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;;
+  background-color: rgba(255,255,255,0.5);
+  h3:after {
+    content: "";
+    display: block;
+    background-color: #27C7AB;
+    width: 40%;
+    height: 5px;
+  }
+}
+
+
+.inputs {
+  border: 1px solid grey;
+  padding: 0 15px;
+  height: 270px;
+  h3 {
+    margin: 25px auto;
+  }
+  h3:after {
+    content: "";
+    display: block;
+    background-color: #27C7AB;
+    width: 40%;
+    height: 5px;
+  }
+}
+

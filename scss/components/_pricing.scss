@@ -1,0 +1,110 @@
+.pricing-section h2 {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+  &:after {
+    content: "";
+    display: block;
+    background-color: #27C7AB;
+    width: 30%;
+    height: 5px;
+  }
+}
+
+.price-plans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan {
+  width: 33.33%;
+  border: 1px solid darkred;
+  text-align: center;
+  background-color: #F9F9F9;
+  margin: 20px 20px 60px 20px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: -35px;
+    transform: translateX(-50%);
+    border: 1px solid grey;
+    border-radius: 50%;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+    background-color: grey;
+    border-radius: 50%;
+  }
+  h3 {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  button {
+    font-size: 16px;
+    width: 40%;
+    align-self: center;
+    height: 40px;
+    background-color: #27C7AB;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    a {
+      color: white;
+    }
+  }
+}
+
+.price-circle {
+  position: absolute;
+  top: -225px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: white;
+  p {
+    padding-top: 35px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 25px;
+    span {
+      font-size: 20px;
+    }
+  }
+}
+
+.options {
+  margin-top: 240px;
+  div {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+
+
+
