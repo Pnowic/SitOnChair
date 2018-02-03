@@ -1,19 +1,35 @@
 header {
-  background-color: #000;
-  color: #fff;
+  background-color: black;
+  color: white;
   padding: 10px;
+  letter-spacing: 1px;
+  font-size: 13px;
   .header-wrapper {
     display: flex;
     justify-content: space-between;
   }
 }
 
-.header-menu li {
-  display: inline;
-  float: right;
-  padding-left: 40px;
-  a {
-    text-decoration: none;
-    color: white;
+.header-logo {
+  font-size: 14px;
+  margin-left: 65px;
+  span {
+    color: #27C7AB;
+    font-weight: 600;
   }
 }
+
+.header-menu {
+  margin-right: 70px;
+  font-weight: 700;
+  li {
+    display: inline;
+    padding-left: 50px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+
