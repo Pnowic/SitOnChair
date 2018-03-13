@@ -1,6 +1,6 @@
 
 
-.slider {
+.slider-section {
   height: 505px;
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(230,224,245,1) 76%, rgba(218,213,241,1) 84%, rgba(207,205,239,1) 92%, rgba(207,205,239,1) 100%);
@@ -31,9 +31,6 @@
     top: 55px;
   }
 }
-
-
-
 
 .slider-text {
   display: flex;
@@ -68,7 +65,7 @@
     height: 50px;
     border-radius: 10px;
     margin-top: 25px;
-    margin-right: 45px;
+    margin-right: 20px;
     background-color: #27C7AB;
     a {
       color: white;

@@ -1,8 +1,13 @@
+.pricing-section {
+  background-color: #F1F1F1;
+}
+
 .pricing-section h2 {
   margin-top: 40px;
   margin-left: 20px;
   font-weight: 400;
   margin-right: 20px;
+  padding-top: 30px;
   &:after {
     content: "";
     display: block;
@@ -15,13 +20,12 @@
 .price-plans {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 .plan {
   width: 33.33%;
-  border: 1px solid darkred;
   text-align: center;
-  background-color: #F9F9F9;
   margin: 20px 20px 60px 20px;
   height: 500px;
   position: relative;
@@ -37,7 +41,6 @@
     left: 50%;
     top: -35px;
     transform: translateX(-50%);
-    border: 1px solid grey;
     border-radius: 50%;
   }
   &:after {
@@ -58,7 +61,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 24px;
   }
   button {
@@ -84,9 +87,10 @@
   margin: auto;
   width: 150px;
   height: 150px;
-  border: 1px solid grey;
   border-radius: 50%;
   background-color: white;
+  border: 1px solid #C2C2C2;
+  color: #C2C2C2;
   p {
     padding-top: 35px;
     font-size: 40px;
@@ -106,5 +110,50 @@
   }
 }
 
+.basic,
+.advance {
+  border: 2px solid #E4E4E4;
+  &:before {
+    background-color: #ffffff;
+  }
+  &:after {
+    background-color: #C2C2C2;
+  }
+  background-color: #F9F9F9;
+  h3 {
+    color: #27C7AB;
+  }
+}
+
+.dark {
+  background-color: #E4E4E4;
+}
+
+.light {
+  background-color: #ffffff;
+}
+
+.standard {
+  h3 {
+    color: #ffffff;
+  }
+  border: 2px solid #27C7AB;
+  background-color: #27C7AB;
+  &:before {
+    background-color: #27C7AB;
+  }
+  &:after {
+    background-color: #ffffff;
+  }
+  .price-circle{
+    color: #27C7AB;
+  }
+  button {
+    background-color: #ffffff;
+    a {
+      color: #27C7AB;
+    }
+  }
+}
 
 

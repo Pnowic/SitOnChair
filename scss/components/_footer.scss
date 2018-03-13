@@ -1,5 +1,6 @@
 footer {
   margin-top: 25px;
+  line-height: 35px;
   .container {
     display: flex;
     justify-content: space-between;
@@ -9,5 +10,14 @@ footer {
 
 .copyright {
   color: grey;
+}
+
+.footer-logo {
+  font-size: 14px;
+  margin-left: 65px;
+  color: grey;
+  span {
+    font-weight: 600;
+  }
 }
 
