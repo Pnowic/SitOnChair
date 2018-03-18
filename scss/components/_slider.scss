@@ -1,7 +1,7 @@
 
 
 .slider-section {
-  height: 505px;
+  height: 520px;
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(230,224,245,1) 76%, rgba(218,213,241,1) 84%, rgba(207,205,239,1) 92%, rgba(207,205,239,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(76%, rgba(230,224,245,1)), color-stop(84%, rgba(218,213,241,1)), color-stop(92%, rgba(207,205,239,1)), color-stop(100%, rgba(207,205,239,1)));
@@ -16,20 +16,36 @@
 }
 
 .slider {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  padding: 10px;
-
+  list-style: none;
+  li {
+    display: none;
+  }
 }
+
+.slider .visible{
+  display: block;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
 
 .black-chair {
   img {
     width: 135%;
     position: relative;
-    left: -70px;
+    left: -35px;
     top: 55px;
   }
+}
+
+.slide-img{
+  height: 495px;
+  width: 1005px;
 }
 
 .slider-text {
@@ -54,7 +70,7 @@
     font-size: 15px;
     line-height: 1.6;
     width: 75%;
-    margin-left: 55px;
+    margin-left: 70px;
     margin-top:15px;
     margin-bottom: 15px;
   }
@@ -75,17 +91,18 @@
 
 .nav-sign-right ,
 .nav-sign-left {
-  margin-top: 200px;
+  top: 250px;
   font-size: 70px;
-  a {
-    color: #27C7AB;
-  }
+  color: #27C7AB;
+  position: absolute;
+  z-index: 1;
 }
 
 .nav-sign-right {
-  margin-right: 75px;
+  right: 10%;
 }
 
 .nav-sign-left {
-  margin-left: 60px;
+  left: 10%;
 }
+
