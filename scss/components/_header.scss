@@ -22,9 +22,10 @@ header {
 .header-menu {
   margin-right: 70px;
   font-weight: 700;
+  position: relative;
   li {
     display: inline;
-    padding-left: 50px;
+    padding: 30px;
     a {
       text-decoration: none;
       color: white;
@@ -32,4 +33,39 @@ header {
   }
 }
 
+.header-submenu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  width: 110px;
+  top: 35px;
+  &:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+    right: 45px;
+  }
+  li {
+    padding: 5px 0;
+    display: block;
+  }
+}
+
+.about {
+  left: 10px;
+}
+
+.gallery {
+  left: 130px;
+}
+
+.contact {
+  left: 255px;
+}
 
